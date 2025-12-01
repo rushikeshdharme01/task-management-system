@@ -9,7 +9,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (_req, res) => {
+import type { Request, Response } from "express";
+
+app.get("/", (_req: Request, res: Response) => {
   res.send("Task Management API is running");
 });
 
