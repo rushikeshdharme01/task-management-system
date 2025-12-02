@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
-"scripts": {
+  "scripts": {
   "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
   "build": "echo \"skipping tsc build on Render\"",
   "start": "npm run dev"
@@ -28,4 +28,3 @@
     "typescript": "^5.5.4"
   }
 }
-
